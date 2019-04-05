@@ -18,7 +18,7 @@ $ yarn add @ac-hooks/use-connectivity
 
 ## Usage
 
-Here is a basic setup.
+Here is a basic usage:
 
 ```js
 import useConnectivity from '@ac-hooks/use-connectivity';
@@ -26,27 +26,28 @@ import useConnectivity from '@ac-hooks/use-connectivity';
 const { isOnline } = useConnectivity();
 
 if (isOnline) {
-  // you are connected to internet
+  // you're back!
 } else {
   // oh no! I can't see you!
 }
 ```
-
-### Parameters
-
-This hooks doesn't accept any parameter
-
-### Return
-
-| Parameter   | Type          | Description |
-| :---------- | :-------------|:---------------------- |
-| `isOnline`  | bool          | Whether you are online or not|
 
 ## Live demo
 
 You can view/edit the sample code above on CodeSandbox.
 
 [![Edit demo app on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/j39z2m23z5)
+
+## Parameters
+
+This hook doesn't accept any parameter.
+
+## Return
+
+| Parameter   | Type          | Description |
+| :---------- | :-------------|:---------------------- |
+| `isOnline`  | bool          | Whether you are online or not|
+
 
 ## License
 
