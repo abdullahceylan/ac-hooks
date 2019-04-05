@@ -1,6 +1,6 @@
 {
   "name": "@ac-hooks/use-connectivity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "description": "A custom React Hook that provides internet connectivity status using browsers' online/offline events.",
   "homepage": "https://github.com/abdullahceylan/ac-hooks/use-connectivity/#readme",
