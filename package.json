@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "lerna clean",
+    "format": "lerna run format",
+    "lint": "lerna run lint",
+    "precommit": "yarn format && yarn lint",
+    "release": "lerna publish"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "husky": "^1.1.4",
+    "lerna": "^3.4.3",
+    "prettier": "^1.14.3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@ac-hooks/use-connectivity",
+  "version": "0.0.1",
+  "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
+  "description": "A custom React Hook that provides internet connectivity status using browsers' online/offline events.",
+  "homepage": "https://github.com/abdullahceylan/ac-hooks/use-connectivity/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdullahceylan/ac-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdullahceylan/ac-hooks/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"./**/*.js\" --config ../../.prettierrc.js --loglevel warn --write",
+    "lint": "eslint \"./**/*.js\" --config ../../.eslintrc.js",
+    "prepublishOnly": "yarn format && yarn lint"
+  },
+  "dependencies": {
+    "@abdullahceylan/eslint-config-react": "^1.1.0",
+    "@abdullahceylan/prettier-config": "^1.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-react-hooks": "^1.5.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.15.1",
+    "prettier": "^1.14.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
