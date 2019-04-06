@@ -32,6 +32,10 @@ if (isOnline) {
 }
 ```
 
+## How to test
+
+You can check it toggling the `Offline` checkbox in the `Network` pane of your `developer tools`.
+
 ## Live demo
 
 You can view/edit the sample code above on CodeSandbox.

@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "description": "A custom React Hook that provides internet connectivity status using browsers' online/offline events.",
-  "homepage": "https://github.com/abdullahceylan/ac-hooks/use-connectivity/#readme",
+  "homepage": "https://github.com/abdullahceylan/ac-hooks/#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/abdullahceylan/ac-hooks.git"
